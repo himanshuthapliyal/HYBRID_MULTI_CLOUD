@@ -164,6 +164,7 @@ resource "aws_s3_bucket_object" "image-pull" {
     key     = "hello.jpg"
     source  = "GIT_PULLL/NmDIPyO_.jpg"
     acl     = "public-read"
+    content_type= "text/*"
 }
 
 
